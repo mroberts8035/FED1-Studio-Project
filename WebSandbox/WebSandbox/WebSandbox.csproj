@@ -67,6 +67,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="CSS.html" />
+    <Content Include="css\custom.css" />
     <Content Include="HTML.html" />
     <Content Include="index.html" />
     <Content Include="Web.config" />
@@ -84,7 +86,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="css\" />
     <Folder Include="images\" />
     <Folder Include="js\" />
   </ItemGroup>
