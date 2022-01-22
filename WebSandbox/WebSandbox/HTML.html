@@ -5,22 +5,102 @@
     <title>HTML Basic | Web Sandbox</title>
     <meta name="Description" content="Info about HTML tags and Elements" />
     <meta name="Keywords" content="Learning, HTML, CSS, Website basics, FED1, Centriq" />
-    <meta name="Author" charset="Matt Roberts"
+    <meta name="Author" charset="Matt Roberts" />
+
+          <!-- This is an EXTERNAL StyleSheet -->
+    <link href="css/custom.css" rel="stylesheet" />
+
+    <!-- Favicon Links -->
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+
 </head>
 <body>
     <header>
-        <h1>HTML Basic | Web Sandbox</h1>
-        <p>This is a page showing the basics of HTML</p>
+        <div id="headerOverlay">
+            <h1>HTML Basic | Web Sandbox</h1>
+            <p>This is a page showing the basics of HTML</p>
+        </div>
 
     </header>
 
-    <!-- TO DO: Add navbar to HTML.html -->
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="HTML.html">HTML</a>
+            </li>
+            <li>
+                <a href="CSS.html">CSS</a>
+            </li>
+            <li>
+                <a href="resources/index.html">Resources</a>
+            </li>
+        </ul>
+    </nav>
 
     <main>
 
-        <section>
+        <aside id="htmlRightColumn">
 
-            <h1>HTML Basics</h1>
+            <h2>Topics</h2>
+            <ul class="asideList">
+                <!-- Bookmark Link Examples -->
+                <li>
+                    <a href="#basics">HTML Basics</a>
+                </li>
+                <li>
+                    <a href="#lists">Lists</a>
+                </li>
+                <li>
+                    <a href="#semantics">Semantic vs Non-Semantic Tags</a>
+                </li>
+                <li>
+                    <a href="#links">Links</a>
+                </li>
+            </ul>
+
+            <h2>External Resources</h2>
+            <ul class="asideList">
+                <li>
+                    <a href="https://www.w3schools.com/html/default.asp">W3Schools HTML</a>
+                </li>
+                <li>
+                    <a href="https://htmlcheatsheet.com/">Online Interactive Cheatsheet</a>
+                </li>
+                <li>
+                    <a href="https://validator.w3.org/">HTML Validator</a>
+                </li>
+                <li>
+                    <a href="http://www.sololearn.com/Course/HTML/ ">Solo Learn HTML</a>
+                </li>
+                <li>
+                    <a href="http://www.tutorialspoint.com/html/">Tutorials Point HTML</a>
+                </li>
+                <li>
+                    <a href="http://htmldog.com/guides/html/">HTML Dog (HTML)</a>
+                </li>
+                <li>
+                    <a href="https://panipsum.com/">Lorem Ipsum Generator</a>
+                </li>
+                <li>
+                    <a href="https://youtu.be/y3UH2gAhwPI">UltimateGuide to Learning HTML and CSS</a>
+                </li>
+                <li>
+                    <a href="https://youtu.be/tGWdjWhyWPM">Basic HTML &amp; CSS</a>
+                </li>
+                <li>
+                    <a href="https://github.com/aFarkas/html5shiv/blob/master/dist/html5shiv.js">HTML 5 Shiv</a>
+                </li>
+            </ul>
+
+        </aside>
+
+        <section class="mainWrapper" id="htmlLeftColumn">
+
+            <h1 id="basics">HTML Basics</h1>
 
             <!-- USEFUL SHORTCUT: Wrap content in tags (<div> by default): Alt + Shift + W -->
 
@@ -103,7 +183,7 @@
 
             <article>
 
-                <h1>Lists</h1>
+                <h1 id="lists">Lists</h1>
 
                 <h2>Ordered (Numbered) Lists</h2>
                 <p>Use OL contanier and LI internal tags</p>
@@ -178,7 +258,7 @@
 
             <article>
 
-                <h1>Semantic vs Non-Semantic Tags</h1>
+                <h1 id="semantics">Semantic vs Non-Semantic Tags</h1>
 
                 <p>
                     Semantic tags are intended to describe the content they contain, which is true to the generally accepted philosophy behind HTML. Examples of semantic tags would include em and strong. Examples of non-semantic tags are those that just describe the formatting of the content, like i for italic and b for bold. (These tags are a throwback to HTML before CSS was created to handle the appearance of the content.) Typically, the semantic em and strong tags, as well the non-semantic i and b tags, result in italic or bold text, respectively. But saying something looks italic only describes its appearance, whereas marking text up with an em tag means it's emphasized. If we use CSS to change the look of that emphasis (say, changing it to be green and bold), it still makes sense to leave it marked up as emphasized. But it wouldn't make sense for it to still be marked italics if that formatting had been removed. Again - use HTML to apply meaning to content rather than formatting.
@@ -202,8 +282,69 @@
 
             </article>
 
+            <article>
+
+                <h1 id="links">Links</h1>
+                <h2>Relative vs Absolute</h2>
+
+                <p>
+                    These are the two most common types of links.
+                </p>
+
+                <p>
+                    Relative links are for files within your site. A relative link can be defined based on the path from the current page or the path from the root folder. The latter is called a Root Relative link.
+                    <br />
+                    <br />
+                    Here is a relative example: <a href="index.html">Relative link to the Home Page</a>
+                    <br />
+                    <br />
+                    Here is a root relative example: <a href="/index.html">Root Relative link to the Home Page</a>
+
+                </p>
+
+                <p>
+                    Absolute link for locations outside of your site:
+                    <a href="http://centriq.com">Centriq</a>
+                </p>
+
+                <h2>Specialized Links and Features</h2>
+                <p>
+                    You can cause a link to open in a new browser tab using target="_blank".
+                    <a href="http://centriq.com" target="_blank">Like This</a>
+                </p>
+
+                <p>
+                    You can create a link that opens up a new email to a specifc email address. However, email links can be problematic for users who don't have an email client configured.
+                    <a href="mailto:postmaster@centriqdev.com">postmaster@centriqdev.com</a>
+                </p>
+
+                <p>
+                    Telephone Links (for when you're browsing from your mobile phone) are relatively new and the syntax is being implimented/developed incosistently.
+                    <a href="tel:+01-913-322-7000">913-322-7000</a>
+                </p>
+
+                <p>
+                    This is an image with a link on it (that opens in a new tab).
+                    <a href="http://centriq.com" target="_blank">
+                        <img src="images/CentriqLogo.png" style="width: 80px;" alt="Centriq logo" />
+                    </a>
+                </p>
+
+                <p>
+                    Download links are links to non-HTML files. When clicked the default action of browsers is to start downloading the file, unless they have the built in ability to read the file (ilke PDFs). Examples of these types of links are on <a href="resources/index.html">resources page</a>
+
+                </p>
+
+                <p>
+                    Named Anchor or Bookmark links refer to a certain ID on HTML page. The ID's are case sensitive and must be prefaced with a #, just like in CSS. Refer to the aside element for examples.
+                </p>
+
+            </article>
+
 
         </section>
+
+
 
     </main>
 

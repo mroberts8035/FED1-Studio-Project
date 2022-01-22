@@ -1,0 +1,27 @@
+﻿body {
+    background-color: lightgray;
+
+}
+
+header {
+    background-color: 025928;
+
+}
+
+main{
+    background-color: #d96704;
+}
+
+footer {
+
+}
+
+
+
+/*Target desired selectors and add CSS for any of the following: 
+Background color
+Text color
+Italics text
+Bold text
+Create and use at least one class repeatedly to style multiple elements on the HTML page. 
+Create and use at least one ID to uniquely identify and style an element on the HTML page. */

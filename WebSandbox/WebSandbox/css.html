@@ -5,7 +5,7 @@
     <title>CSS Basics | Web Sandbox</title>
     <meta name="Description" content="Info about formatting HTML pages with CSS" />
     <meta name="Keywords" content="Learning, CSS, Website basics, FED1, Centriq" />
-    <meta name="Author" charset="Matt Roberts"
+    <meta name="Author" charset="Matt Roberts" />
 
     <!--
     CSS Notes: Comment Syntax for CSS
@@ -74,7 +74,7 @@
     -->
     <!-- This is an EXTERNAL StyleSheet -->
     <link href="css/custom.css" rel="stylesheet" />
-    
+
 
     <!-- INTERNAL StyleSheet -->
     <style>
@@ -109,21 +109,70 @@
         }
     </style>
 
+    <!-- Favicon Links -->
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+
 
 </head>
 <body>
     <header>
         <!-- Inline Styling Examples (directly to the tag inside the opening tag -->
-        <h1 style="font-weight:bold;">Web Sandbox</h1>
-        <p style="font-style:italic;">This is a page showing the basics of HTML and CSS</p>
+        <div id="headerOverlay">
+            <h1 style="font-weight:bold;">Web Sandbox</h1>
+            <p style="font-style:italic;">This is a page showing the basics of HTML and CSS</p>
+        </div>
 
     </header>
 
-    <!-- TO DO: Add navbar to CSS.html -->
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="HTML.html">HTML</a>
+            </li>
+            <li>
+                <a href="CSS.html">CSS</a>
+            </li>
+            <li>
+                <a href="resources/index.html">Resources</a>
+            </li>
+        </ul>
+    </nav>
 
     <main>
 
-        <section>
+        <aside id="cssRightColumn">
+
+            <h2 class="asideHeader">Topics</h2>
+
+            <ul> class="asideList"
+                <li>
+                    <a href="css_topics/Colors.html">Colors</a>
+                </li>
+            <li>
+                <a href="css_topics/Fonts.html">Fonts</a>
+            </li>
+            <li>
+                <a href="css_topics/Images.html">Images</a>
+            </li>
+
+            </ul>
+
+            <h2 class="asideHeader"> External Resources</h2>
+
+
+            <ul class="asideList">
+
+                <li><a href="https://www.w3schools.com/css/default.asp">W3Schools (Links to an external site.) CSS</a></li>
+
+            </ul>
+
+        </aside>
+
+        <section class="mainWrapper" id="cssLeftColumn">
 
             <!--core content, separate from aside sidebar-->
 
@@ -233,17 +282,7 @@
 
         </section>
 
-        <aside>
-
-            <h2 id="asideHeader"> External Resources</h2>
-
-            <ul>
-
-                <li><a href="https://www.w3schools.com/css/default.asp">W3Schools (Links to an external site.) CSS</a></li>
-
-            </ul>
-
-        </aside>
+        <div class="clear"></div>
 
     </main>
 

@@ -21,7 +21,7 @@
 <head>
     <!-- Holds meta data (information about other infomation) about the HTML document.
         Anything inside the head tags will NOT be displayed to the user. Inside of the head tags, you will see:
-            a. Title tag - page title, used in the browser tab, also used for bookmarks and search engines
+            a. Title tag - page title, used in the browser tab, also used for bookmarks and search enginesg
             b. Meta tags - provide infomation about the HTML document and are important for SEO (Search Engine Optimazation)
             c. Link tags - provide access to CSS files, how we bring in styling information.
             d. Script tags - provide access to JS files-->
@@ -31,6 +31,15 @@
     <meta name="description" content="This is a site description, shows up in the results for Google" />
     <meta name="keywords" content="Learning, HTML, CSS, Website basics, FED1, Centriq" />
     <meta name="author" content="Matt Roberts" />
+
+    <!-- This is an EXTERNAL StyleSheet -->
+    <link href="css/custom.css" rel="stylesheet" />
+
+    <!-- Favicon Links -->
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+
+
 
 </head>
 <body>
@@ -45,27 +54,54 @@
 
         <!-- A Header is a container at the top of a page or section -->
 
-        <h1>Web &nbsp;Sandbox</h1>
-        <!-- h1 acts as a "site title", often seen in banners. -->
+        <div id="headerOverlay">
+            <h1>Web &nbsp;Sandbox</h1>
+            <!-- h1 acts as a "site title", often seen in banners. -->
 
-        <p>Notes and Resources for HTML and CSS</p>
-        <!--  Tag line -->
+            <p>Notes and Resources for HTML and CSS</p>
+            <!--  Tag line -->
+        </div>
 
 
     </header>
 
-    <!-- TO DO: Add navbar to index.html -->
-    <!-- We will add a nav element here later, which is a container used for main navigation links. -->
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="HTML.html">HTML</a>
+            </li>
+            <li>
+                <a href="CSS.html">CSS</a>
+            </li>
+            <li>
+                <a href="resources/index.html">Resources</a>
+            </li>
+        </ul>
+    </nav>
 
     <main>
         <!-- <main> is the container for primary page content and should be used only ONCE for each page-->
 
-        <section>
+        <aside id="rightColumn">
+            <!-- An <aside> holds content that is indirectly related to the main content of a page or section. -->
+
+            <h2>Key Terms</h2>
+
+            <p>
+                This is an area you can list key terms and important notes from FED1.
+            </p>
+
+        </aside>
+
+        <section class="mainWrapper" id="leftColumn">
             <!-- <section> is a generic section of a page/block of content. It is used for thematic grouping of content. Common Theme -->
 
             <h1>Web Sandbox: Let's Build Stuff</h1>
 
-            <article>
+            <article id="frontendDev">
                 <!-- <article> is a specific type of section. It holds content that could be independently reproduced. -->
 
                 <h2>Front End Development</h2>
@@ -80,6 +116,8 @@
                 <section>
                     <!-- THis is a sub-section in a larger block of content. -->
 
+                    <img src="images/HTML_logo.png" alt="Logo for the HTML coding language" title="HTML" id="html" />
+
                     <h3>HTML</h3>
                     <p>
                         HyperText Markup Language (HTML) is used to define the structure of the content of a web page.
@@ -92,6 +130,8 @@
 
                 <section>
 
+                    <img src="images/CSS_logo.png" alt="Logo for the CSS coding language" title="CSS" id="css" />
+
                     <h3>CSS</h3>
                     <p>
                         Cascading StyleSheets (CSS) is used for the formatting and layout of web page content. It was introduced as a way to seperate the concerns of markup (HTML)
@@ -102,6 +142,9 @@
                 </section>
 
                 <section>
+
+                    <img src="images/JS_logo.png" alt="Logo for JS coding language" title="JS" id="js" />
+
                     <h3>JavaScript (JS)</h3>
                     <p>
                         JavaScript (JS) allows us to make our web pages more interactive. Its primary use is that it provides the ability to perform programming logic
@@ -138,16 +181,7 @@
 
         </section>
 
-        <aside>
-            <!-- An <aside> holds content that is indirectly related to the main content of a page or section. -->
 
-            <h2>Key Terms</h2>
-
-            <p>
-                This is an area you can list key terms and important notes from FED1.
-            </p>
-
-        </aside>
 
     </main>
 
