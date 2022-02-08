@@ -1,5 +1,5 @@
 ﻿body {
-    background-image: url(../images/StockTicker.jpg);
+       background-image: url('../images/GreenBackground.jpg');
     background-repeat: repeat;
 }
 
@@ -10,6 +10,14 @@ header {
 
 header h1 {
     color: #025928;
+}
+
+headerOverlay {
+    background-image: url('../images/Logo.JPG');
+    background-repeat: no-repeat;
+    background-size: 90px;
+    background-position: 3% center;
+    padding: 2em;
 }
 
 main {

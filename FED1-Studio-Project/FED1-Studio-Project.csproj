@@ -69,7 +69,22 @@
   <ItemGroup>
     <Content Include="Contact.html" />
     <Content Include="css\custom.css" />
+    <Content Include="images\AgustinRamos.jpg" />
+    <Content Include="images\BobbyGlisson.jpg" />
+    <Content Include="images\CynthiaWakeman.jpg" />
+    <Content Include="images\GreenBackground.jpg" />
+    <Content Include="images\JanetMyers.jpg" />
+    <Content Include="images\Logo.JPG" />
+    <Content Include="images\MaryEnriquez.jpg" />
+    <Content Include="images\MaryKocher.jpg" />
+    <Content Include="images\MichaelBritt.jpg" />
+    <Content Include="images\OscarWatson.jpg" />
+    <Content Include="images\PeterLebel.jpg" />
+    <Content Include="images\placeholder.jpg" />
+    <Content Include="images\RobertPittman.jpg" />
+    <Content Include="images\StefanieMoran.jpg" />
     <Content Include="images\StockTicker.jpg" />
+    <Content Include="images\TimNottingham.jpg" />
     <Content Include="Team.html" />
     <Content Include="Classes.html" />
     <Content Include="index.html" />
