@@ -26,8 +26,8 @@
             <span><i class="fa fa-instagram" aria-hidden="true"></i></span>
         </div>
         <div id="headerOverlay">
-            <h1>What can you Learn?</h1>
-            <p>The different bases of knowledge we can impart on you!</p>
+            <h1 class="headText">Finance Guru</h1>
+            <p class="headText">The Premier Source for Finance Education</p>
         </div>
     </header>
 
@@ -37,7 +37,7 @@
                 <a href="index.html">Home</a>
             </li>
             <li>
-                <a href="Classes.html">Classes</a>
+                <a href="Classes.html" style="background-color:#d96704">Classes</a>
             </li>
             <li>
                 <a href="Team.html">Team</a>
@@ -50,86 +50,57 @@
 
     <main>
 
-        <section>
-            <article>
-                <section>
-                    <!-- TODO Add Image Here -->
-                    <div>
-                        <img src="images/placeholder.jpg" width="150" , height="150" />
-                    </div>
-                    <div>
-                        <h2>Budgeting</h2>
-                        <p>
-                            Learn how to properly manage your inflow and outflow of cash. Trim expenses where you don't need them and stop wasting money.
-                        </p>
-                    </div>
-                </section>
-                <section>
-                    <!-- TODO Add Image Here -->
-                    <div>
-                        <img src="images/placeholder.jpg" width="150" , height="150" />
-                    </div>
-                    <div>
-                        <h2>Investing</h2>
-                        <p>
-                            Make your money work for you.
-                        </p>
-                    </div>
-                </section>
-                <section>
-                    <!-- TODO Add Image Here -->
-                    <div>
-                        <img src="images/placeholder.jpg" width="150" , height="150" />
-                    </div>
-                    <div>
-                        <h2>Manage Debt</h2>
-                        <p>
-                            What is really the best strategy for taking care of your debt? Does it really make sense to pay it off early? The answer is different for everyone.
-                        </p>
-                    </div>
-                </section>
-                <section>
-                    <!-- TODO Add Image Here -->
-                    <div>
-                        <img src="images/placeholder.jpg" width="150" , height="150" />
-                    </div>
-                    <div>
-                        <h2>Credit Masters</h2>
-                        <p>
-                            What is credit? How does it work? Why does it matter? How do you build, repair, improve it? Become the Credit Master that everyone wants to know.
-                        </p>
-                    </div>
-                </section>
-                <section>
-                    <!-- TODO Add Image Here -->
-                    <div>
-                        <img src="images/placeholder.jpg" width="150" , height="150" />
-                    </div>
-                    <div>
-                        <h2>Insurance</h2>
-                        <p>
-                            What is really out there about insurance? Is it a scam or a necissity? How do you determine what people need?
-                        </p>
-                    </div>
-                </section>
-                <section>
-                    <!-- TODO Add Image Here -->
-                    <div>
-                        <img src="images/placeholder.jpg" width="150" , height="150" />
-                    </div>
-                    <div>
-                        <h2>Emergencies</h2>
-                        <p>
-                            The stuff really hit the fan now.... Everyone is scrambling. Do you have a plan? Do you help others have a plan? Think critically and develop the right mindset for what you need.
-                        </p>
-                    </div>
-                </section>
-            </article>
+        <h1 id="whyUs">What can you Learn?</h1>
 
-        </section>
-        <article>
+        <article id="classGallery">
+            
             <div>
-                <table>
+                <div class="galleryItem">
+                    <a href="images/placeholder.jpg" target="_blank">
+                        <img src="images/placeholder.jpg" alt="Open laptop sitting on the arm of a chair with computer code on the screen" title="Code" width="600" height="400" />
+                    </a>
+                    <div class="description"><h2>Budgeting</h2><p>Learn how to properly manage your inflow and outflow of cash. Trim expenses where you don't need them and stop wasting money.</p></div>
+                </div>
+                <div class="galleryItem">
+                    <a href="images/placeholder.jpg" target="_blank">
+                        <img src="images/placeholder.jpg" alt="Open laptop with code on screen sitting on a table beside coffee." title="Code and Coffee" width="600" height="400" />
+                    </a>
+                    <div class="description"><h2>Investing</h2><p>Make your money work for you.</p></div>
+                </div>
+                <div class="galleryItem">
+                    <a href="images/placeholder.jpg" target="_blank">
+                        <img src="images/placeholder.jpg" alt="HTML and CSS book sitting on a table" title="HTML and CSS Books" width="600" height="400" />
+                    </a>
+                    <div class="description"><h2>Manage Debt</h2><p>What is really the best strategy for taking care of your debt? Does it really make sense to pay it off early? The answer is different for everyone.</p></div>
+                </div>
+            </div>
+            <div>
+                <div class="galleryItem">
+                    <a href="images/placeholder.jpg" target="_blank">
+                        <img src="images/placeholder.jpg" alt="Man sitting in front of computer pointing to a yellow sticky note with code written on it." title="Code Note" width="600" height="400" />
+                    </a>
+                    <div class="description"><h2>Credit Masters</h2><p>What is credit? How does it work? Why does it matter? How do you build, repair, improve it? Become the Credit Master that everyone wants to know.</p></div>
+                </div>
+                <div class="galleryItem">
+                    <a href="images/placeholder.jpg" target="_blank">
+                        <img src="images/placeholder.jpg" alt="Black screen displaying computer code with intermitten colored keywords" title="Code" width="600" height="400" />
+                    </a>
+                    <div class="description"><h2>Insurance</h2><p>What is really out there about insurance? Is it a scam or a necissity? How do you determine what people need?</p></div>
+                </div>
+                <div class="galleryItem">
+                    <a href="images/placeholder.jpg" target="_blank">
+                        <img src="images/placeholder.jpg" alt="Split angled black display screen with code written." title="Code" width="600" height="400" />
+                    </a>
+                    <div class="description"><h2>Emergencies</h2><p>The stuff really hit the fan now.... Everyone is scrambling. Do you have a plan? Do you help others have a plan? Think critically and develop the right mindset for what you need.</p></div>
+                </div>
+            </div>
+        </article>
+        
+
+        
+        <article class="classtables">
+            <div>
+                <table class="tableclass">
                     <thead>
                         <tr>
                             <th colspan="4">Budgeting Guru</th>
@@ -145,19 +116,19 @@
                         <tr>
                             <td>1</td>
                             <td>Budget Basics</td>
-                            <td>Instructor</td>
+                            <td>Agustin Ramos</td>
                             <td>M-F 9-4</td>
                         </tr>
                         <tr>
                             <td>2</td>
                             <td>Budget Trimming</td>
-                            <td>Instructor</td>
+                            <td>Robert Pittman</td>
                             <td>M-F 9-4</td>
                         </tr>
                         <tr>
                             <td>3</td>
                             <td>Advanced Budgeting</td>
-                            <td>Instructor</td>
+                            <td>Cynthia Wakeman</td>
                             <td>M-F 9-4</td>
                         </tr>
                     </tbody>
@@ -165,7 +136,7 @@
                 </table>
             </div>
             <div>
-                <table>
+                <table class="tableclass">
                     <thead>
                         <tr>
                             <th colspan="4">Investing</th>
@@ -181,27 +152,27 @@
                         <tr>
                             <td>1</td>
                             <td>Investing Basics</td>
-                            <td>Instructor</td>
+                            <td>Agustin Ramos</td>
                             <td>M-F 9-4</td>
                         </tr>
                         <tr>
                             <td>2</td>
                             <td>Risk Management</td>
-                            <td>Instructor</td>
+                            <td>Robert Pittman</td>
                             <td>M-F 9-4</td>
                         </tr>
                         <tr>
                             <td>3</td>
                             <td>Types of Investments</td>
-                            <td>Instructor</td>
+                            <td>Cynthia Wakeman</td>
                             <td>M-F 9-4</td>
                         </tr>
                     </tbody>
 
-                </table>
+                </table class="tableclass">
             </div>
             <div>
-                <table>
+                <table class="tableclass">
                     <thead>
                         <tr>
                             <th colspan="4">Debt Buster</th>
@@ -217,19 +188,19 @@
                         <tr>
                             <td>1</td>
                             <td>What is Debt</td>
-                            <td>Instructor</td>
+                            <td>Agustin Ramos</td>
                             <td>M-F 9-4</td>
                         </tr>
                         <tr>
                             <td>2</td>
                             <td>Good Debt?</td>
-                            <td>Instructor</td>
+                            <td>Robert Pittman</td>
                             <td>M-F 9-4</td>
                         </tr>
                         <tr>
                             <td>3</td>
                             <td>Scams to avoid</td>
-                            <td>Instructor</td>
+                            <td>Cynthia Wakeman</td>
                             <td>M-F 9-4</td>
                         </tr>
                     </tbody>
@@ -237,7 +208,7 @@
                 </table>
             </div>
             <div>
-                <table>
+                <table class="tableclass">
                     <thead>
                         <tr>
                             <th colspan="4">Credit Guru</th>
@@ -253,19 +224,19 @@
                         <tr>
                             <td>1</td>
                             <td>Credit Fundamentals</td>
-                            <td>Instructor</td>
+                            <td>Agustin Ramos</td>
                             <td>M-F 9-4</td>
                         </tr>
                         <tr>
                             <td>2</td>
                             <td>Credit Building</td>
-                            <td>Instructor</td>
+                            <td>Robert Pittman</td>
                             <td>M-F 9-4</td>
                         </tr>
                         <tr>
                             <td>3</td>
                             <td>Credit Repair</td>
-                            <td>Instructor</td>
+                            <td>Cynthia Wakeman</td>
                             <td>M-F 9-4</td>
                         </tr>
                     </tbody>
@@ -273,7 +244,7 @@
                 </table>
             </div>
             <div>
-                <table>
+                <table class="tableclass">
                     <thead>
                         <tr>
                             <th colspan="4">Insurance Guru</th>
@@ -289,19 +260,19 @@
                         <tr>
                             <td>1</td>
                             <td>Types of Insurance</td>
-                            <td>Instructor</td>
+                            <td>Agustin Ramos</td>
                             <td>M-F 9-4</td>
                         </tr>
                         <tr>
                             <td>2</td>
                             <td>Insurance needs</td>
-                            <td>Instructor</td>
+                            <td>Robert Pittman</td>
                             <td>M-F 9-4</td>
                         </tr>
                         <tr>
                             <td>3</td>
                             <td>Insurance as Inheritance</td>
-                            <td>Instructor</td>
+                            <td>Cynthia Wakeman</td>
                             <td>M-F 9-4</td>
                         </tr>
                     </tbody>
@@ -309,7 +280,7 @@
                 </table>
             </div>
             <div>
-                <table>
+                <table class="tableclass">
                     <thead>
                         <tr>
                             <th colspan="4">Emergency Guru</th>
@@ -325,19 +296,19 @@
                         <tr>
                             <td>1</td>
                             <td>Start with a Plan</td>
-                            <td>Instructor</td>
+                            <td>Agustin Ramos</td>
                             <td>M-F 9-4</td>
                         </tr>
                         <tr>
                             <td>2</td>
                             <td>Step it out</td>
-                            <td>Instructor</td>
+                            <td>Robert Pittman</td>
                             <td>M-F 9-4</td>
                         </tr>
                         <tr>
                             <td>3</td>
                             <td>All about mindset</td>
-                            <td>Instructor</td>
+                            <td>Cynthia Wakeman</td>
                             <td>M-F 9-4</td>
                         </tr>
                     </tbody>

@@ -1,5 +1,5 @@
 ﻿body {
-       background-image: url('../images/GreenBackground.jpg');
+    background-image: url('../images/GreenBackground.jpg');
     background-repeat: repeat;
 }
 
@@ -8,9 +8,9 @@ header {
     border-top: 5px solid #025928;
 }
 
-header h1 {
-    color: #025928;
-}
+    header h1 {
+        color: #025928;
+    }
 
 #headerOverlay {
     background-image: url('../images/Logo.JPG');
@@ -27,6 +27,7 @@ main {
 #whyUs {
     color: #025928;
     text-decoration: underline;
+    text-align: center
 }
 
 .contentHeading {
@@ -69,6 +70,90 @@ nav ul li {
         padding: .4em 1em;
         display: block;
     }
+
+.socailMediaTags {
+    float: right;
+}
+
+.headText {
+    padding-left: 120px;
+}
+
+nav a:active {
+    background-color: #d96704;
+}
+
+#aboutus {
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
+
+#topleftimage {
+    float: left;
+    width: 40%;
+    text-align: center;
+}
+
+#bottomrightimage {
+    float: right;
+    width: 40%;
+    text-align: center;
+}
+
+.choosetexttop {
+    margin-right: 40px;
+}
+
+.choosetextbottom {
+    margin-left: 40px;
+}
+
+#aboutusblock {
+    padding: 75px;
+}
+
+div.galleryItem {
+    margin: 5px;
+    border: 1px solid #ccc;
+    display: inline-block;
+    width: 350px;
+}
+
+    div.galleryItem:hover {
+        border: 1px solid lightsalmon;
+    }
+
+    div.galleryItem img {
+        width: 100%;
+        height: auto;
+    }
+
+    div.galleryItem a:hover {
+        background-color: lightsalmon;
+    }
+
+#classGallery {
+    margin: 0 auto;
+    width: 85%;
+    text-align: center;
+}
+
+.classtables {
+    text-align: center;
+    padding-left: 40%;
+}
+
+.tableclass {
+    padding-bottom: 80px;
+}
+
+#departments {
+    float: right;
+    width: 25%;
+}
 
 
 /*Target desired selectors and add CSS for any of the following: 
