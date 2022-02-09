@@ -12,7 +12,7 @@ header h1 {
     color: #025928;
 }
 
-headerOverlay {
+#headerOverlay {
     background-image: url('../images/Logo.JPG');
     background-repeat: no-repeat;
     background-size: 90px;
