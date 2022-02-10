@@ -43,6 +43,10 @@ main {
     font-size: 30px;
 }
 
+#leadership, #sales, #administration, #instructors {
+    text-align: center;
+}
+
 footer {
     background-color: lightgray;
 }
@@ -190,7 +194,65 @@ a {
 }
 
 
+/*Tables*/
+table, tr, rd, th {
+    border: 1px solid black;
+    border-collapse: collapse; /*Avoids duplicate adjacent borders inside the table.*/
+}
 
+table {
+    /*margin: auto; Centers element in parent container*/ 
+        margin-top: 3em;
+        margin-bottom: 1em;
+}
+
+th {
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+
+th a {
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+
+td, th {
+    padding: em;
+}
+
+thead {
+    background-color: #d96704;
+}
+
+tfoot {
+    background-color: forestgreen;
+}
+
+    tfoot tr, tfoot td {
+        border: 0;
+    }
+
+tbody tr:nth-child(even) {
+    background-color: forestgreen;
+}
+
+#contact {
+    margin: auto;
+    text-align: center;
+}
+
+.contactInfo {
+    font-weight: bold;
+   
+}
+
+.staffImg {
+    float: left;
+}
 
 
 /*Target desired selectors and add CSS for any of the following: 
