@@ -1,4 +1,8 @@
-﻿body {
+﻿
+
+@import url('https://fonts.googleapis.com/css2?family=Quintessential&display=swap');
+
+body {
     background-image: url('../images/GreenBackground.jpg');
     background-repeat: repeat;
 }
@@ -24,15 +28,19 @@ main {
     background-color: #F6F6F6;
 }
 
-#whyUs {
+.whyUs {
     color: #025928;
     text-decoration: underline;
-    text-align: center
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+   
 }
 
 .contentHeading {
     color: #d96704;
-    font-style: bold;
+    font-weight: bold;
+    font-size: 30px;
 }
 
 footer {
@@ -134,7 +142,7 @@ div.galleryItem {
 }
 
     div.galleryItem:hover {
-        border: 1px solid lightsalmon;
+        border: 2px solid #025928;
     }
 
     div.galleryItem img {
@@ -143,7 +151,7 @@ div.galleryItem {
     }
 
     div.galleryItem a:hover {
-        background-color: lightsalmon;
+        background-color: #025928;
     }
 
 #classGallery {
@@ -176,6 +184,13 @@ a {
     display: inline-block;
     padding-left: 10%;
 }
+
+.teamDescription {
+    font-family: 'Quintessential', bold;
+}
+
+
+
 
 
 /*Target desired selectors and add CSS for any of the following: 
