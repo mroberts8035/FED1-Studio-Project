@@ -45,6 +45,7 @@ main {
 
 #leadership, #sales, #administration, #instructors {
     text-align: center;
+    margin-bottom: 3em;
 }
 
 footer {
@@ -254,6 +255,18 @@ tbody tr:nth-child(even) {
     float: left;
 }
 
+.bio {
+    margin-left: 8em;
+}
+
+.bio h3 {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.staff {
+    margin-bottom: 4em;
+}
 
 /*Target desired selectors and add CSS for any of the following: 
 Background color
