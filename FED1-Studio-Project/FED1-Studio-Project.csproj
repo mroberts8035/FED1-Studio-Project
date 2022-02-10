@@ -69,16 +69,25 @@
   <ItemGroup>
     <Content Include="Contact.html" />
     <Content Include="css\custom.css" />
+    <Content Include="images\AboutUs.jpg" />
     <Content Include="images\AgustinRamos.jpg" />
     <Content Include="images\BobbyGlisson.jpg" />
+    <Content Include="images\budget.jpg" />
+    <Content Include="images\credit.jpg" />
     <Content Include="images\CynthiaWakeman.jpg" />
+    <Content Include="images\debt.jpg" />
+    <Content Include="images\emergencies.jpg" />
+    <Content Include="images\expertise.jpg" />
     <Content Include="images\favicon.ico" />
     <Content Include="images\GreenBackground.jpg" />
+    <Content Include="images\insurance.jpg" />
+    <Content Include="images\investing.jpg" />
     <Content Include="images\JanetMyers.jpg" />
     <Content Include="images\Logo.JPG" />
     <Content Include="images\MaryEnriquez.jpg" />
     <Content Include="images\MaryKocher.jpg" />
     <Content Include="images\MichaelBritt.jpg" />
+    <Content Include="images\Money.jpg" />
     <Content Include="images\OscarWatson.jpg" />
     <Content Include="images\PeterLebel.jpg" />
     <Content Include="images\placeholder.jpg" />
